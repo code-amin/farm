@@ -1,7 +1,8 @@
-import Header from "./Header";
 import Footer from "./Footer";
+import Header from "./Header";
 
 const App = () => {
+
   return (
     <>
       <Header />
