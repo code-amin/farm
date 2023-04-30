@@ -3,12 +3,12 @@ import Header from "./Header";
 
 const App = () => {
 
-  return (
-    <>
-      <Header />
-      <Footer />
-    </>
-  );
+    return (
+        <div className="">
+            <Header/>
+            <Footer/>
+        </div>
+    );
 };
 
 export default App;
