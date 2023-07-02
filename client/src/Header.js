@@ -2,7 +2,8 @@ import {GiFarmTractor} from "react-icons/gi";
 
 const Header = () => {
     return (
-        <div className="border-b-2 w-full top-0 fixed flex font-[Poppins] ">
+        <div
+            className="border-b-2 w-full top-0 fixed flex font-[Poppins] bg-lime-50 z-50 shadow-lg ">
             <div className="pr-2 py-6 text-3xl border-red-600 border-2 w-4/5 flex">
                 <span> Ferme les Ricins </span>
                 <span className="pl-2 text-green-800 text-4xl"></span>
