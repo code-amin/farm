@@ -1,6 +1,5 @@
 import { BsChevronCompactRight } from "react-icons/bs";
 import { BsChevronCompactLeft } from "react-icons/bs";
-
 import { useState } from "react";
 
 const Carousel = () => {
