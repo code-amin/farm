@@ -4,20 +4,31 @@ import { useState } from "react";
 
 //Tailwind CSS is broken, inline style because client is urged.
 const Carousel = () => {
-  const slides = [
-    {
-      url: "https://images.unsplash.com/photo-1601597111158-2fceff292cdc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8YmFua3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60",
-    },
-    {
-      url: "https://images.unsplash.com/photo-1541354329998-f4d9a9f9297f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8YmFua3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60",
-    },
-    {
-      url: "https://images.unsplash.com/photo-1550565118-3a14e8d0386f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8YmFua3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60",
-    },
-    {
-      url: "https://images.unsplash.com/photo-1501167786227-4cba60f6d58f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmFua3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60",
-    },
+  const link = [
+    "https://raw.githubusercontent.com/code-amin/farm/main/client/src/images/",
   ];
+  const links = [];
+  for (let x = 1; x < 23; x++) {
+    const theURL = `${link}${"image" + x + ".jpeg"}`;
+    links.push({ url: `${theURL}` });
+  }
+  let slides = [];
+  links.forEach((link) => {
+    slides.push(link);
+  });
+  // {
+  //   url: "https://raw.githubusercontent.com/code-amin/farm/main/client/src/images/image0.png",
+  // },
+  // {
+  //   url: "https://images.unsplash.com/photo-1541354329998-f4d9a9f9297f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8YmFua3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60",
+  // },
+  // {
+  //   url: "https://images.unsplash.com/photo-1550565118-3a14e8d0386f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8YmFua3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60",
+  // },
+  // {
+  //   url: "https://images.unsplash.com/photo-1501167786227-4cba60f6d58f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmFua3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60",
+  // },
+
   const [currentIndex, setCurrentIndex] = useState(0);
   const prevSlide = () => {
     const isFirstSlide = currentIndex === 0;
@@ -29,6 +40,7 @@ const Carousel = () => {
     const newIndex = isLastSlide ? 0 : currentIndex + 1;
     setCurrentIndex(newIndex);
   };
+
   return (
     <div className="py-20 ">
       <div
@@ -72,6 +84,10 @@ const Carousel = () => {
             color: "#ffffff",
             cursor: "pointer",
             top: "50%",
+            backgroundColor: "green",
+            borderRadius: "12px",
+            opacity: "30%",
+            border: "1px solid",
           }}
         >
           <BsChevronCompactLeft onClick={prevSlide} size={50} />
@@ -89,7 +105,10 @@ const Carousel = () => {
             color: "#ffffff",
             cursor: "pointer",
             top: "50%",
-            ":hover": {},
+            backgroundColor: "green",
+            borderRadius: "12px",
+            opacity: "30%",
+            border: "1px solid",
           }}
         >
           <BsChevronCompactRight onClick={nextSlide} size={50} />
