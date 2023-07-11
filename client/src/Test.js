@@ -6,98 +6,139 @@ const Test = () => {
       <div className="head">
         <div className="informations">
           <h1>Informations</h1>
+          <span>
+            Ferme à vendre (Cause retraite) <br />
+            <br />
+            Ferme localisée dans la Région Rabat-Kénitra, bordant la route R401,
+            dans les Zaèrs, équipée du système d’irrigation localisée
+            goutte-à-goutte), sur la moitié de la superficie (soit environ 16
+            ha), cette zone est divisée en 4 parcelles destinée aux spéculations
+            suivantes, chaque parcelle est de 4 ha:
+            <br />
+            <br />
+            Arboriculture (citron et grenadier), plantées en 2017, est en pré
+            production;
+            <br />
+            <br />
+            4 ha sont réservés au fourrage;
+            <br />
+            <br />
+            4 ha au maraichage (céréaliculture en alternance);
+            <br />
+            <br />
+            Pensé en termes de diversification, de marché et des besoins en
+            alimentation du bétail, la ferme est équipée du matériel nécessaire
+            aux travaux aratoires et leurs accessoires.
+            <br />
+            <br />
+            Le terrain est clôturé, (celui-ci a donné un nom pop. à la ferme :
+            firma lmzarba), les infrastructures bâties : les puits, la station
+            de tête, le bassin (120 000 m3), l’étable, la bergerie et l’édifice
+            principal comprenant le magasin, la salle de repos et le garage.
+            <br />
+            <br />
+            Un poste moyenne tension de 50 KVA, distribue l’électricité, sur la
+            ferme et un compteur basse tension, alimente les logis.
+            <br />
+            <br />
+            La superficie totale est de 34 ha.
+            <br />
+            <br />
+            De Rabat, à environ 130 km, par la route R401, avec prise à même la
+            route R401.
+            <br />
+            <br />
+            <br />
+          </span>
           <table id="customers">
             <tr>
-              <th>Company</th>
-              <th>Contact</th>
-              <th>Country</th>
+              <th></th>
+              <th>Études et rapports</th>
+              <th>Organisme</th>
             </tr>
             <tr>
-              <td>Alfreds Futterkiste</td>
-              <td>Maria Anders</td>
-              <td>Germany</td>
+              <td>✅</td>
+              <td>Plan d’aménagement Irrigation localisée Goutte à Goutte</td>
+              <td> ISAGRI, sarl, Sidi Allal-el-Bahraoui</td>
             </tr>
             <tr>
-              <td>Berglunds snabbköp</td>
-              <td>Christina Berglund</td>
-              <td>Sweden</td>
+              <td>✅</td>
+              <td>Électrification, moyenne tension, étude et réalisation </td>
+              <td> ONEE Khémisset</td>
             </tr>
             <tr>
-              <td>Centro comercial Moctezuma</td>
-              <td>Francisco Chang</td>
-              <td>Mexico</td>
+              <td>✅</td>
+              <td>Étude de rentabilité, demandée par le Crédit agricole</td>
+              <td>H. Med Ourara-Kénitra agronome</td>
             </tr>
             <tr>
-              <td>Ernst Handel</td>
-              <td>Roland Mendel</td>
-              <td>Austria</td>
+              <td>✅</td>
+              <td>
+                Étude du potentiel hydraulique (demandée par Gestion du bassin
+                du Bouregreg)
+              </td>
+              <td>Ben Slimane</td>
             </tr>
             <tr>
-              <td>Island Trading</td>
-              <td>Helen Bennett</td>
-              <td>UK</td>
+              <td>✅</td>
+              <td>Étude des sols </td>
+              <td>IAV-Rabat</td>
             </tr>
             <tr>
-              <td>Königlich Essen</td>
-              <td>Philip Cramer</td>
-              <td>Germany</td>
-            </tr>
-            <tr>
-              <td>Laughing Bacchus Winecellars</td>
-              <td>Yoshi Tannamuri</td>
-              <td>Canada</td>
-            </tr>
-            <tr>
-              <td>Magazzini Alimentari Riuniti</td>
-              <td>Giovanni Rovelli</td>
-              <td>Italy</td>
-            </tr>
-            <tr>
-              <td>North/South</td>
-              <td>Simon Crowther</td>
-              <td>UK</td>
-            </tr>
-            <tr>
-              <td>Paris spécialités</td>
-              <td>Marie Bertrand</td>
-              <td>France</td>
+              <td>✅</td>
+              <td>
+                Infrastructures bâties : plan et supervision des réalisations
+              </td>
+              <td> Cabinet My Brahim Alaloui, Architecte-Urbaniste </td>
             </tr>
           </table>
         </div>
-        <div className="descriptions">
-          <h1>Descriptions</h1>
-          <p> Magnifique ferme en bordure de XX....lorem</p>
-        </div>
+
+        <br />
+        <a href="https://goo.gl/maps/RvLPWgxHvaJfiSks6">
+          Voir sur Google Maps 🌍
+        </a>
         <div className="carte">
-          <h1>This is my Google Maps web page</h1>
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2990.274257380938!2d-70.56068388481569!3d41.45496659976631!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e52963ac45bbcb%3A0xf05e8d125e82af10!2sDos%20Mas!5e0!3m2!1sen!2sus!4v1671220374408!5m2!1sen!2sus"
-            width="600"
-            height="450"
-            allowfullscreen=""
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-          ></iframe>
+          <div style={{ width: "100%" }}>
+            <iframe
+              scrolling="no"
+              marginheight="0"
+              marginwidth="0"
+              src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=33.219778%20%20-6.6228346+(Ferme%20Les%20Ricins)&amp;t=h&amp;z=17&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+              width="100%"
+              height="600"
+              frameborder="0"
+            >
+              <a href="https://www.gps.ie/sport-gps/">bike gps</a>
+            </iframe>
+          </div>
         </div>
 
-      {/* FORM SECTION */}
-      <div className="contact">
-        <h2>Communiquez avec nous</h2>
-      <form action="/test.js">
-
-      <label for="fname">Prénom</label>
-    <input type="text" id="fname" name="firstname" placeholder="Votre prénom..."/>
-
-    <label for="lname">Nom de famille</label>
-    <input type="text" id="lname" name="lastname" placeholder="Votre nom de famille..."/>
-
-    <label for="Objet">Objet</label>
-    <textarea id="Objet" name="Objet" placeholder="Votre message..." />
-
-    <input type="submit" value="Envoyer"/>
-    </form>
-    </div>
-    </div>
+        {/* FORM SECTION */}
+        <h3>
+          {/* Pour plus d'informations, veuillez remplir le formulaire ci-dessous. */}
+        </h3>
+        <div className="contact">
+          <h2>Communiquez avec nous</h2>
+          <a href="mailto:rouif401@gmail.com?subject=Demande d'information - Ferme">
+            <h1>
+              Envoyez un courriel <span>📩</span>{" "}
+            </h1>
+          </a>{" "}
+          {/* <form action="contact.php" method="post">
+            <input type="text" name="first_name" />
+            <br />
+            <input type="text" name="last_name" />
+            <br />
+            <input type="text" name="email" />
+            <br />
+            <br />
+            <textarea rows="5" name="message" cols="30"></textarea>
+            <br />
+            <input type="submit" name="submit" value="Submit" />
+          </form> */}
+        </div>
+      </div>
     </>
   );
 };

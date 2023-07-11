@@ -42,7 +42,10 @@ const Carousel = () => {
   };
 
   return (
-    <div className="py-20 ">
+    <div
+      className="py-20 "
+      style={{ display: "flex", justifyContent: "center" }}
+    >
       <div
         className="max-w-[700px] h-[600px] w-full m-auto py-16 px-4 relative "
         style={{
@@ -50,6 +53,7 @@ const Carousel = () => {
           paddingLeft: "1rem",
           paddingRight: "1rem",
           paddingTop: "4rem",
+          marginTop: "40px",
           paddingBottom: "4rem",
           width: "100%",
           maxWidth: "700px",
@@ -67,6 +71,7 @@ const Carousel = () => {
             backgroundSize: "cover",
             transitionDuration: "500ms",
             scrollSnapType: "x var(--tw-scroll-snap-strictness)",
+            boxShadow: "0px 0px 111px 20px #d5d5d5",
           }}
           className="w-full h-full rounded-2xl bg-center bg-cover duration-500 scroll snap-x"
         ></div>
@@ -76,7 +81,7 @@ const Carousel = () => {
           className="absolute top-[50%] -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full p-2 bg-black/30 text-white cursor-pointer hover:bg-gray-400/30 "
           style={{
             position: "absolute",
-            left: "1.25rem",
+            left: "-100px",
             padding: "0.5rem",
             borderRadius: "9999px",
             fontSize: "1.5rem",
@@ -97,7 +102,7 @@ const Carousel = () => {
           className="absolute top-[50%] -translate-x-0 translate-y-[-50%] right-5 text-2xl rounded-full p-2 bg-black/30 text-white cursor-pointer hover:bg-gray-400/30 "
           style={{
             position: "absolute",
-            right: "1.25rem",
+            right: "-100px",
             padding: "0.5rem",
             borderRadius: "9999px",
             fontSize: "1.5rem",
