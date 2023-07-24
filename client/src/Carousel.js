@@ -69,8 +69,6 @@ const Carousel = () => {
             height: "100%",
             backgroundPosition: "center",
             backgroundSize: "cover",
-            transitionDuration: "500ms",
-            scrollSnapType: "x var(--tw-scroll-snap-strictness)",
             boxShadow: "0px 0px 111px 20px #d5d5d5",
           }}
           className="w-full h-full rounded-2xl bg-center bg-cover duration-500 scroll snap-x"
