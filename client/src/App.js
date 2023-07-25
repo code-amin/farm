@@ -1,7 +1,7 @@
 import Footer from "./Footer";
 import Header from "./Header";
 import Carousel from "./Carousel";
-import Test from "./Test";
+import Body from "./Body";
 
 
 const App = () => {
@@ -9,7 +9,7 @@ const App = () => {
     <div className="">
       <Header />
       <Carousel />
-      <Test  />
+      <Body />
       <hr></hr>
       <Footer />
     </div>
