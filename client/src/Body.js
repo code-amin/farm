@@ -3,7 +3,7 @@ import "./App.css";
 const Body = () => {
   return (
     <>
-      <div className="head text-[rgb(5,69,47)] p-5">
+      <div className="head text-[rgb(5,69,47)] px-2">
         <div className="informations mb-[75px]">
           <h1>Informations</h1>
           <span className="font-thin text-[25px]">
@@ -118,12 +118,12 @@ const Body = () => {
         <h3>
           {/* Pour plus d'informations, veuillez remplir le formulaire ci-dessous. */}
         </h3>
-        <div className="contact text-center ">
-          <>Communiquez avec nous 📩</>
+        
+        <button className="contact text-center  text-white py-3 right-0 bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:outline-none font-medium rounded-lg text-sm px-5 mr-6 mb-6 ">
           <a href="mailto:rouif401@gmail.com?subject=Demande d'information - Ferme">
-            <span className=" text-white py-3 right-0 bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:outline-none font-medium rounded-lg text-sm px-5 text-center mr-6 mb-6 w-1/5">
-              Envoyez un courriel
-            </span>
+            {/* <span className=" text-white py-3 right-0 bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:outline-none font-medium rounded-lg text-sm px-5 text-center mr-6 mb-6 w-1/5"> */}
+             Communiquez avec nous
+            {/* </span> */}
           </a>
           {/* <form action="contact.php" method="post">
             <input type="text" name="first_name" />
@@ -137,7 +137,7 @@ const Body = () => {
             <br />
             <input type="submit" name="submit" value="Submit" />
           </form> */}
-        </div>
+        </button>
       </div>
     </>
   );
