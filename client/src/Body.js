@@ -122,7 +122,7 @@ const Body = () => {
         <button className="contact text-center  text-white py-3 right-0 bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:outline-none font-medium rounded-lg text-sm px-5 mr-6 mb-6 ">
           <a href="mailto:rouif401@gmail.com?subject=Demande d'information - Ferme">
             {/* <span className=" text-white py-3 right-0 bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:outline-none font-medium rounded-lg text-sm px-5 text-center mr-6 mb-6 w-1/5"> */}
-             Communiquez avec nous
+            Communiquez avec nous
             {/* </span> */}
           </a>
           {/* <form action="contact.php" method="post">
