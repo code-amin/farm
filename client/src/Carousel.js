@@ -34,7 +34,7 @@ const Carousel = () => {
       className="py-20 "
       style={{ display: "flex", justifyContent: "center" }}
     >
-      <div className="max-w-[700px] h-[500px] lg:w-[1000px] lg:h-[1000px] w-full m-auto py-16 px-4 relative mt-[40px]">
+      <div className="max-w-[700px] h-[500px] m::w-[1000px] m:h-[1000px] w-full m-auto py-16 px-4 relative mt-[40px]">
         <div
           id="carousel"
           style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
