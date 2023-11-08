@@ -99,19 +99,8 @@ const Body = () => {
           Voir sur Google Maps 🌍
         </a>
         <div className="carte mb-[75px]">
-          <div style={{ width: "100%" }}>
-            <iframe
-              scrolling="no"
-              marginheight="0"
-              marginwidth="0"
-              src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=33.219778%20%20-6.6228346+(Ferme%20Les%20Ricins)&amp;t=h&amp;z=17&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
-              width="100%"
-              height="600"
-              frameborder="0"
-            >
-              <a href="https://www.gps.ie/sport-gps/">bike gps</a>
-            </iframe>
-          </div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7996.769236063381!2d-6.625387422136463!3d33.21981247348188!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda6b9d9e2cd4bb7%3A0x689fb602ba1afd0e!2sFerme%20Les%20Ricins!5e1!3m2!1sfr!2sca!4v1699460862924!5m2!1sfr!2sca" width="1000" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
         </div>
 
         {/* FORM SECTION */}
