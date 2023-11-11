@@ -5,7 +5,7 @@ const Header = () => {
       <span className="text-5xl font-semibold text-white self-center ">
         Ferme les Ricins
       </span>
-      <button className="contact text-center  text-white py-3 right-0 bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:outline-none font-medium rounded-lg text-sm px-5 mr-6 mb-6 ">
+      <button className="contact text-center text-white right-0 bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:outline-none font-medium rounded-lg text-sm px-5 mr-6 mb-6 ">
         Info $
       </button>
     </div>

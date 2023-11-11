@@ -11,9 +11,11 @@ const Body = () => {
             <br />
             Ferme localisée dans la Région Rabat-Kénitra, bordant la route R401,
             dans les Zaèrs, équipée du système d’irrigation localisée
-            goutte-à-goutte), sur la moitié de la superficie (soit environ 16
-            ha), cette zone est divisée en 4 parcelles destinée aux spéculations
-            suivantes, chaque parcelle est de 4 ha:
+            goutte-à-goutte) (un système solaire remplace maintenant le système
+            électrique sur l’infrastructure goûte à goûte, et devient la
+            principale source d’énergie), sur la moitié de la superficie (soit
+            environ 16 ha), cette zone est divisée en 4 parcelles destinée aux
+            spéculations suivantes, chaque parcelle est de 4 ha:
             <br />
             Arboriculture (citron et grenadier), plantées en 2017, est en pré
             production;
