@@ -99,15 +99,21 @@ const Body = () => {
           Voir sur Google Maps 🌍
         </a>
         <div className="carte mb-[75px]">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7996.769236063381!2d-6.625387422136463!3d33.21981247348188!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda6b9d9e2cd4bb7%3A0x689fb602ba1afd0e!2sFerme%20Les%20Ricins!5e1!3m2!1sfr!2sca!4v1699460862924!5m2!1sfr!2sca" width="1000" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7996.769236063381!2d-6.625387422136463!3d33.21981247348188!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda6b9d9e2cd4bb7%3A0x689fb602ba1afd0e!2sFerme%20Les%20Ricins!5e1!3m2!1sfr!2sca!4v1699460862924!5m2!1sfr!2sca"
+            width="1000"
+            height="450"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
         </div>
 
         {/* FORM SECTION */}
         <h3>
           {/* Pour plus d'informations, veuillez remplir le formulaire ci-dessous. */}
         </h3>
-        
+
         <button className="contact text-center  text-white py-3 right-0 bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:outline-none font-medium rounded-lg text-sm px-5 mr-6 mb-6 ">
           <a href="mailto:rouif401@gmail.com?subject=Demande d'information - Ferme">
             {/* <span className=" text-white py-3 right-0 bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:outline-none font-medium rounded-lg text-sm px-5 text-center mr-6 mb-6 w-1/5"> */}

@@ -3,7 +3,6 @@ import Header from "./Header";
 import Carousel from "./Carousel";
 import Body from "./Body";
 
-
 const App = () => {
   return (
     <div className="">
