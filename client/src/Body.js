@@ -6,7 +6,7 @@ const Body = () => {
       <div className="head text-[rgb(5,69,47)] px-2">
         <div className="informations mb-[75px]">
           <h1>Informations</h1>
-          <span className="font-thin text-[25px]">
+          <span className="  text-[20px]">
             Ferme à vendre (Cause retraite) <br />
             <br />
             Ferme localisée dans la Région Rabat-Kénitra, bordant la route R401,
@@ -14,7 +14,6 @@ const Body = () => {
             goutte-à-goutte), sur la moitié de la superficie (soit environ 16
             ha), cette zone est divisée en 4 parcelles destinée aux spéculations
             suivantes, chaque parcelle est de 4 ha:
-            <br />
             <br />
             Arboriculture (citron et grenadier), plantées en 2017, est en pré
             production;

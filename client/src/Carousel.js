@@ -31,16 +31,18 @@ const Carousel = () => {
 
   return (
     <div
-      className="py-20 "
+      className="pt-20 "
       style={{ display: "flex", justifyContent: "center" }}
     >
-      <div className="max-w-[700px] h-[500px] m::w-[1000px] m:h-[1000px] w-full m-auto py-16 px-4 relative mt-[40px]">
+      <div className="max-w-[700px] h-[500px] m::w-[1000px] m:h-[1000px] w-full m-auto py-16 px-4 relative mt-[10px]">
+        <h2 className="text-center text-2xl	pb-4 font-medium">
+          Ferme Agricole Moderne avec un Potentiel Immense
+        </h2>{" "}
         <div
           id="carousel"
           style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
           className="w-full h-full rounded-2xl bg-center bg-cover  shadow-[0_3px_10px_rgb(0,0,0,0.2)]"
         ></div>
-
         {/* Left Arrow */}
         <div className="absolute top-[50%] left-5 text-2xl rounded-full p-2 bg-black/30 text-white cursor-pointer hover:bg-gray-400/30 ">
           <BsChevronCompactLeft onClick={prevSlide} size={50} />
