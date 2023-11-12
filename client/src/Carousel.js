@@ -32,8 +32,8 @@ const Carousel = () => {
   return (
     <div className="p-20  justify-center ">
       <div className="max-w-[1000px] h-[700px] m::w-[1000px] m:h-[1000px] w-full m-auto py-16 px-4 relative mt-[10px]">
-        <h2 className="text-center text-2xl	pb-4 font-medium">
-          Ferme Agricole Moderne avec un Potentiel Immense
+        <h2 className="text-[rgb(5,69,47)] text-center text-3xl	pb-4 font-medium">
+          Ferme agricole moderne avec un potentiel immense
         </h2>{" "}
         <div
           id="carousel"

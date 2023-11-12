@@ -28,7 +28,7 @@ const Body = () => {
             4 ha au maraichage (céréaliculture en alternance);
             <br />
             <br />
-            Pensé en termes de diversification, de marché et des besoins en
+            Pensée en termes de diversification, de marché et des besoins en
             alimentation du bétail, la ferme est équipée du matériel nécessaire
             aux travaux aratoires et leurs accessoires.
             <br />

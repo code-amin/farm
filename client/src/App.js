@@ -1,7 +1,7 @@
 import Header from "./Header";
 import Carousel from "./Carousel";
 import Prix from "./Prix";
-import { Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 
 const App = () => {
   return (
