@@ -9,7 +9,7 @@ const Carousel = () => {
   ];
 
   const links = [];
-  for (let x = 1; x < 23; x++) {
+  for (let x = 1; x < 24; x++) {
     const theURL = `${link}${"image" + x + ".jpeg"}`;
     links.push({ url: `${theURL}` });
   }
