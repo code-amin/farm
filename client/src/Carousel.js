@@ -1,8 +1,8 @@
 import { BsChevronCompactRight } from "react-icons/bs";
 import { BsChevronCompactLeft } from "react-icons/bs";
 import { useState } from "react";
+import Body from "./Body";
 
-//Tailwind CSS is broken, inline style because client is urged.
 const Carousel = () => {
   const link = [
     "https://raw.githubusercontent.com/code-amin/farm/main/client/src/images/",
@@ -30,10 +30,7 @@ const Carousel = () => {
   };
 
   return (
-    <div
-      className="pt-20 "
-      style={{ display: "flex", justifyContent: "center" }}
-    >
+    <div className="p-20  justify-center ">
       <div className="max-w-[700px] h-[500px] m::w-[1000px] m:h-[1000px] w-full m-auto py-16 px-4 relative mt-[10px]">
         <h2 className="text-center text-2xl	pb-4 font-medium">
           Ferme Agricole Moderne avec un Potentiel Immense
@@ -51,6 +48,7 @@ const Carousel = () => {
         <div className="absolute top-[50%]  right-5 text-2xl rounded-full p-2 bg-black/30 text-white cursor-pointer hover:bg-gray-400/30 ">
           <BsChevronCompactRight onClick={nextSlide} size={50} />
         </div>
+        <Body />
       </div>
     </div>
   );

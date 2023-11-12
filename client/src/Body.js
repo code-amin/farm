@@ -1,9 +1,10 @@
 import "./App.css";
+import Footer from "./Footer";
 
 const Body = () => {
   return (
     <>
-      <div className="head text-[rgb(5,69,47)] px-2">
+      <div className="head text-[rgb(5,69,47)]  px-2 pb-40">
         <div className="informations mb-[75px]">
           <h1>Informations</h1>
           <span className="  text-[20px]">
@@ -13,9 +14,9 @@ const Body = () => {
             dans les Zaèrs, équipée du système d’irrigation localisée
             goutte-à-goutte) (un système solaire remplace maintenant le système
             électrique sur l’infrastructure goûte à goûte, et devient la
-            principale source d’énergie), sur la moitié de la superficie (soit
-            environ 16 ha), cette zone est divisée en 4 parcelles destinée aux
-            spéculations suivantes, chaque parcelle est de 4 ha:
+            principale source d’énergie), sur la moitié de la superficie
+            (soit5566 environ 16 ha), cette zone est divisée en 4 parcelles
+            destinée aux spéculations suivantes, chaque parcelle est de 4 ha:
             <br />
             Arboriculture (citron et grenadier), plantées en 2017, est en pré
             production;
@@ -117,24 +118,11 @@ const Body = () => {
 
         <button className="contact text-center  text-white py-3 right-0 bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:outline-none font-medium rounded-lg text-sm px-5 mr-6 mb-6 ">
           <a href="mailto:rouif401@gmail.com?subject=Demande d'information - Ferme">
-            {/* <span className=" text-white py-3 right-0 bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:outline-none font-medium rounded-lg text-sm px-5 text-center mr-6 mb-6 w-1/5"> */}
             Communiquez avec nous
-            {/* </span> */}
           </a>
-          {/* <form action="contact.php" method="post">
-            <input type="text" name="first_name" />
-            <br />
-            <input type="text" name="last_name" />
-            <br />
-            <input type="text" name="email" />
-            <br />
-            <br />
-            <textarea rows="5" name="message" cols="30"></textarea>
-            <br />
-            <input type="submit" name="submit" value="Submit" />
-          </form> */}
         </button>
       </div>
+      <Footer />
     </>
   );
 };

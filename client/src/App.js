@@ -1,17 +1,15 @@
-import Footer from "./Footer";
 import Header from "./Header";
 import Carousel from "./Carousel";
-import Body from "./Body";
+import { Routes, Route } from "react-router-dom";
 
 const App = () => {
   return (
-    <div className="">
+    <>
       <Header />
-      <Carousel />
-      <Body />
-      <hr></hr>
-      <Footer />
-    </div>
+      <Routes>
+        <Route path="/" element={<Carousel />} />
+      </Routes>
+    </>
   );
 };
 
