@@ -1,13 +1,13 @@
 const Header = () => {
   return (
-    <div className="HEADER flex w-full top-0 fixed font-[Poppins] bg-[rgb(77,172,73)] z-50 shadow-lg px-2 pr-2 py-6 text-3xl justify-between">
+    <div className="HEADER flex sm:w-full top-0 fixed font-[Poppins] bg-[rgb(77,172,73)] z-50 shadow-lg px-2 pr-2 py-6 lg:text-3xl md:text-2xl text-sm justify-between">
       <a href="/">
         <img
           className="wh-[25px] transition duration-300 ease-in-out hover:scale-110"
           src="../favicon.ico"
         />
       </a>
-      <span className="text-5xl font-semibold text-white self-center ">
+      <span className="lg:text-3xl md:text-2xl text-sm font-semibold text-white self-center ">
         Ferme les Ricins
       </span>
       <a

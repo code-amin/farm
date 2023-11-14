@@ -4,13 +4,13 @@ import Footer from "./Footer";
 const Body = () => {
   return (
     <>
-      <div className="head text-[rgb(5,69,47)]  px-2 pb-40">
+      <div className="head sm:w-full text-[rgb(5,69,47)] px-2 pb-40">
         <div className="informations mb-[75px]">
           <a
             href="/#/photos"
             className="text-2xl  text-blue-700 underline text-right  justify-end flex"
           >
-            Voir tout{" "}
+            Voir tout 📸{" "}
           </a>
           <h1>Informations</h1>
           <span className="  text-[20px]">

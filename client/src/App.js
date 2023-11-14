@@ -8,14 +8,14 @@ import { Routes, Route } from "react-router-dom";
 
 const App = () => {
   return (
-    <>
+    <div>
       <Header />
       <Routes>
         <Route path="/" element={<Carousel />} />
         <Route path="/prix" element={<Prix />} />
         <Route path="/photos" element={<Photos />} />
       </Routes>
-    </>
+    </div>
   );
 };
 
