@@ -6,6 +6,12 @@ const Body = () => {
     <>
       <div className="head text-[rgb(5,69,47)]  px-2 pb-40">
         <div className="informations mb-[75px]">
+          <a
+            href="/#/photos"
+            className="text-2xl  text-blue-700 underline text-right  justify-end flex"
+          >
+            Voir tout{" "}
+          </a>
           <h1>Informations</h1>
           <span className="  text-[20px]">
             Ferme à vendre (Cause retraite) <br />
@@ -116,7 +122,7 @@ const Body = () => {
           {/* Pour plus d'informations, veuillez remplir le formulaire ci-dessous. */}
         </h3>
 
-        <button className="contact text-center  text-white py-3 right-0 bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:outline-none font-medium rounded-lg text-sm px-5 mr-6 mb-6 ">
+        <button className="contact text-center  text-white py-3 right-0 bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:outline-none font-medium rounded-lg text-sm px-5 mr-6 mb-6 transition duration-300 ease-in-out hover:scale-110">
           <a href="mailto:rouif401@gmail.com?subject=Demande d'information - Ferme">
             Communiquez avec nous
           </a>
