@@ -2,9 +2,12 @@ const Prix = () => {
   return (
     <>
       <div className="p-40  grid ">
-        <button className="border-gray-500 w-[100px] 	border-2 py-3 right-0 font-medium text-sm px-5 mr-6 mt-16 transition duration-300 ease-in-out hover:scale-110">
-          <a href="/">⏎ Retour </a>
-        </button>
+        <a
+          href="/"
+          className="border-gray-500 w-[100px] 	border-2 py-3 right-0 font-medium text-sm justify-center flex  mr-6 mt-16 transition duration-300 ease-in-out hover:scale-110"
+        >
+          ⏎ Retour{" "}
+        </a>
         <p className="text-3xl">Le prix</p>
         <p>
           Il comprend les terrains (34 ha), les logis (accueil) et celui du

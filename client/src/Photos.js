@@ -1,10 +1,32 @@
 const Photos = () => {
+  let imagesURL = [];
+  for (let x = 1; x < 24; x++) {
+    imagesURL.push(
+      <img
+        src={`https://raw.githubusercontent.com/code-amin/farm/main/client/src/images/image${x}.jpeg`}
+        className="py-2"
+      />
+    );
+  }
+
+  let videosURL = [];
+  for (let y = 0; y < 3; y++) {}
   return (
     <>
-      <div className="p-40  grid ">
-        <button className="border-gray-500 w-[100px] 	border-2 py-3 right-0 font-medium text-sm px-5 mr-6 mt-16 transition duration-300 ease-in-out hover:scale-110">
-          <a href="/">⏎ Retour </a>
-        </button>
+      <div className="p-40 grid ">
+        <a
+          href="/"
+          className="border-gray-500 w-[100px] 	border-2 py-3 right-0 font-medium text-sm justify-center flex  mr-6 mt-16 transition duration-300 ease-in-out hover:scale-110"
+        >
+          ⏎ Retour{" "}
+        </a>
+        <p>{imagesURL}</p>
+        <a
+          href="/"
+          className="border-gray-500 w-[100px] 	border-2 py-3 right-0 font-medium text-sm justify-center flex  mr-6 mt-16 transition duration-300 ease-in-out hover:scale-110"
+        >
+          ⏎ Retour{" "}
+        </a>
         <p className="text-3xl">Photos</p>
         <hr></hr>
         <div>content ehre</div>
