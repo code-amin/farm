@@ -4,7 +4,7 @@ import Footer from "./Footer";
 const Body = () => {
   return (
     <>
-      <div className="HEAD sm:w-full text-[rgb(5,69,47)] sm:px-2 sm:pb-40">
+      <div className="HEAD sm:w-full text-[rgb(5,69,47)] sm:px-2 sm:pb-10">
         <div className="informations mb-[75px]">
           <a
             href="/#/photos"

@@ -43,7 +43,7 @@ const Carousel = () => {
       <h2 className="text-[rgb(5,69,47)] text-center text-lg sm:text-3xl sm:pb-2 font-medium pt-2">
         Ferme agricole moderne avec un potentiel immense
       </h2>{" "}
-      <div className="w-full h-[300px] m:w-[1000px] m:h-[700px] px-2 m-auto sm:py-10  relative mt-[10px]">
+      <div className="w-full h-[300px] sm:w-[700px] sm:h-[500px] px-2 m-auto sm:py-10  relative mt-[10px]">
         <button
           onClick={() => {
             setModalOpen(true);

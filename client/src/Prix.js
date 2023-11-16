@@ -1,7 +1,7 @@
 const Prix = () => {
   return (
     <>
-      <div className="p-2 sm:p-40  grid ">
+      <div className="p-2 sm:p-4  grid ">
         <a
           href="/"
           className="border-gray-500 w-[100px] 	border-2 py-3 right-0 font-medium text-sm justify-center flex  mr-6 mt-16 transition duration-300 ease-in-out hover:scale-110"

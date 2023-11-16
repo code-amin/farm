@@ -12,7 +12,7 @@ const Header = () => {
       </span>
       <a
         href="/#/prix"
-        className="CONTACT text-center self-center h-7 w-12 font-medium rounded-lg md:px-5 md:mr-6 md:my-3 md:pt-2 md:text-xl
+        className="CONTACT text-center self-center h-7 w-12 sm:h-10 sm:w-20 font-medium rounded-lg md:px-5 md:mr-6 md:my-3 md:pt-2 md:text-xl whitespace-nowrap
         text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:outline-none"
       >
         Info $
