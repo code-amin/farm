@@ -1,18 +1,19 @@
 const Header = () => {
   return (
-    <div className="HEADER flex sm:w-full top-0 fixed font-[Poppins] bg-[rgb(77,172,73)] z-50 shadow-lg px-2 pr-2 py-6 lg:text-3xl md:text-2xl text-sm justify-between">
+    <div className="NAVBAR flex top-0 font-[Poppins] bg-[rgb(77,172,73)] shadow-lg px-2 text-sm lg:text-3xl md:text-2xl  justify-between">
       <a href="/">
         <img
-          className="wh-[25px] transition duration-300 ease-in-out hover:scale-110"
+          className="FAVICON transition w-10 sm:w-full duration-300 ease-in-out hover:scale-110"
           src="../favicon.ico"
         />
       </a>
-      <span className="lg:text-3xl md:text-2xl text-sm font-semibold text-white self-center ">
+      <span className="H1 text-sm md:text-2xl lg:text-3xl font-semibold text-white self-center ">
         Ferme les Ricins
       </span>
       <a
         href="/#/prix"
-        className="contact text-center text-white right-0 bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:outline-none font-medium rounded-lg px-5 mr-6 my-3 pt-2 first-line:text-xl "
+        className="CONTACT text-center self-center h-7 w-12 font-medium rounded-lg md:px-5 md:mr-6 md:my-3 md:pt-2 md:text-xl
+        text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:outline-none"
       >
         Info $
       </a>
