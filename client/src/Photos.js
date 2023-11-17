@@ -4,7 +4,7 @@ const Photos = () => {
     imagesURL.push(
       <img
         src={`https://raw.githubusercontent.com/code-amin/farm/main/client/src/images/image${x}.jpeg`}
-        className="py-2 sm:w-[80%]  ml-auto mr-auto max-w-[80%] max-h-[80%]"
+        className="py-2 sm:w-[80%] ml-auto mr-auto w-[70%] h-[70%] max-w-[1000px] max-h-[700px]"
       />,
       <hr />
     );
@@ -13,7 +13,12 @@ const Photos = () => {
   let videosURL = [];
   for (let y = 1; y < 6; y++) {
     videosURL.push(
-      <video width="750" height="500" className="py-2 sm:w-[80%] ml-auto mr-auto max-w-[1000px] max-h-[700px]" controls>
+      <video
+        width="750"
+        height="500"
+        className="py-2 w-[90%] sm:w-[80%] ml-auto mr-auto max-w-[1000px] max-h-[700px]"
+        controls
+      >
         <source
           src={`https://raw.githubusercontent.com/code-amin/farm/main/client/src/videos/vid${y}.mov`}
           type="video/mp4"
