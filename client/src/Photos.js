@@ -4,7 +4,7 @@ const Photos = () => {
     imagesURL.push(
       <img
         src={`https://raw.githubusercontent.com/code-amin/farm/main/client/src/images/image${x}.jpeg`}
-        className="py-2 sm:w-[80%] ml-auto mr-auto w-[70%] h-[70%] max-w-[1000px] max-h-[700px]"
+        className="py-2 ml-auto mr-auto sm:max-w-[50%] sm:max-h-[50%]"
       />,
       <hr />
     );
