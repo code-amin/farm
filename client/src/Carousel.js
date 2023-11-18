@@ -44,6 +44,12 @@ const Carousel = () => {
         Ferme agricole moderne avec un potentiel immense
       </h2>{" "}
       <div className="w-full h-[300px] sm:w-[700px] sm:h-[500px] px-2 m-auto sm:py-10  relative mt-[10px]">
+        <a
+          href="/#/photos"
+          className="text-lg sm:text-2xl  text-blue-700 underline text-right  justify-end flex"
+        >
+          Voir tout 📸{" "}
+        </a>
         <button
           onClick={() => {
             setModalOpen(true);

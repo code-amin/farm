@@ -6,26 +6,24 @@ const Body = () => {
     <>
       <div className="HEAD sm:w-full text-[rgb(5,69,47)] sm:px-2 sm:pb-10">
         <div className="informations mb-[75px]">
-          <a
-            href="/#/photos"
-            className="text-lg sm:text-2xl  text-blue-700 underline text-right  justify-end flex"
-          >
-            Voir tout 📸{" "}
-          </a>
           <h1>Informations</h1>
           <span className="sm:text-[20px] text-justify">
             Ferme à vendre (Cause retraite) <br />
             <br />
             Ferme localisée dans la Région Rabat-Kénitra, bordant la route R401,
             dans les Zaèrs, équipée du système d’irrigation localisée
-            goutte-à-goutte) (un système solaire remplace maintenant le système
-            électrique sur l’infrastructure goûte à goûte, et devient la
-            principale source d’énergie), sur la moitié de la superficie
-            (soit5566 environ 16 ha), cette zone est divisée en 4 parcelles
-            destinée aux spéculations suivantes, chaque parcelle est de 4 ha:
+            goutte-à-goutte){" "}
+            <span className="underline">
+              (un système solaire remplace maintenant le système électrique sur
+              l’infrastructure goûte à goûte, et devient la principale source
+              d’énergie)
+            </span>
+            , sur la moitié de la superficie (environ 16 ha), cette zone est
+            divisée en 4 parcelles destinée aux spéculations suivantes, chaque
+            parcelle est de 4 ha:
             <br />
-            Arboriculture (citron et grenadier), plantées en 2017, est en pré
-            production;
+            Arboriculture (citron et grenadier, 8ha), plantées en 2017, est en
+            pré production;
             <br />
             <br />
             4 ha sont réservés au fourrage;
@@ -45,8 +43,10 @@ const Body = () => {
             principal comprenant le magasin, la salle de repos et le garage.
             <br />
             <br />
-            Un poste moyenne tension de 50 KVA, distribue l’électricité, sur la
-            ferme et un compteur basse tension, alimente les logis.
+            Récemment, un système d'énergie solaire alimente dorénavant le
+            système goutte-à-goutte. Un poste moyenne tension de 50 KVA,
+            distribue l’électricité, sur la ferme et un compteur basse tension,
+            alimente les logis.
             <br />
             <br />
             La superficie totale est de 34 ha.
