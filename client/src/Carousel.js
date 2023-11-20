@@ -2,10 +2,23 @@ import { BsChevronCompactRight } from "react-icons/bs";
 import { BsChevronCompactLeft } from "react-icons/bs";
 import { useState } from "react";
 import Body from "./Body";
-import Modal from "./Modal";
 
 const Carousel = () => {
-  const [modalOpen, setModalOpen] = useState(false);
+  const file = new XMLHttpRequest();
+  let response = "";
+  file.open(
+    "GET",
+    "https://raw.githubusercontent.com/code-amin/farm/main/client/src/text/imgdesc.md",
+    false
+  );
+  file.onreadystatechange = function () {
+    if (file.readyState === 4) {
+      if (file.status === 200 || file.status == 0) {
+        response = file.responseText;
+      }
+    }
+  };
+  file.send(null);
 
   const link = [
     "https://raw.githubusercontent.com/code-amin/farm/main/client/src/images/",
@@ -36,10 +49,9 @@ const Carousel = () => {
     setCurrentIndex(newIndex);
   };
 
-  let img = slides[currentIndex].url;
-
   return (
     <div className="sm:p-5 justify-center ">
+      <h3> ---{response}****</h3>
       <h2 className="text-[rgb(5,69,47)] text-center text-lg sm:text-3xl sm:pb-2 font-medium pt-2">
         Ferme agricole moderne avec un potentiel immense
       </h2>{" "}
@@ -51,16 +63,10 @@ const Carousel = () => {
           Voir tout 📸{" "}
         </a>
         <button
-          onClick={() => {
-            setModalOpen(true);
-          }}
           style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
           className="CAROUSEL w-full h-full rounded-2xl bg-center bg-cover shadow-[0_3px_10px_rgb(0,0,0,0.2)]"
           alt="Photo de la ferme"
-        >
-          {" "}
-          {/* {modalOpen && <Modal img={img}>hhh</Modal>} */}
-        </button>
+        ></button>
         {/* Left Arrow */}
         <div className="ARROWS flex absolute top-[40%] w-full left-0 justify-between sm:top-[50%] text-white  ">
           <div className="   rounded-full  bg-black/30 cursor-pointer hover:bg-gray-400/30 ">
