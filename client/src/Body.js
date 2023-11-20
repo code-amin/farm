@@ -39,8 +39,10 @@ const Body = () => {
             <br />
             Le terrain est clôturé, (celui-ci a donné un nom pop. à la ferme :
             firma lmzarba), les infrastructures bâties : les puits, la station
-            de tête, le bassin (120 000 m3), l’étable, la bergerie et l’édifice
-            principal comprenant le magasin, la salle de repos et le garage.
+            de tête, le bassin{" "}
+            <span className="inline-block">(120 000 m3)</span>, l’étable, la
+            bergerie et l’édifice principal comprenant le magasin, la salle de
+            repos et le garage.
             <br />
             <br />
             Récemment, un système d'énergie solaire alimente dorénavant le

@@ -12,14 +12,16 @@ const Prix = () => {
         <p className="text-lg">
           Il comprend les terrains (34 ha), les logis (accueil) et celui du
           berger (collé à la bergerie. Les outils aratoires (tracteur, chariot,
-          citerne, billonneur, cover Crop et le chesel. <br />
+          citerne, billonneur, cover Crop et le chesel, etc... <br />
           Les dernières transactions ont été conclues au prix de 170 000 MAD/ha
-          dans un cas (voisin), et de 400 000 MAD/ha, dans un autre. <br />
-          Pour avoir une idée sur le marché, il est possible de consulter
+          dans un cas (voisin), et de{" "}
+          <span className="inline-block">400 000 MAD/ha</span>, dans un autre.{" "}
+          <br />
+          Pour avoir une i dée sur le marché, il est possible de consulter
           DGT(enregistrement) ou la Conservation foncière. Ces organismes
           compilent les transactions zone par zone (Zoning) et appliquent un
           prix moyen des 3 derniers mois. Considérant l’objet à vendre, il faut
-          compter 300 000 MAD l’HA. <br />
+          compter <span className="inline-block">300 000 MAD l’HA.</span> <br />
           Des questions? Contactez nous. <br />
           Merci!
         </p>
