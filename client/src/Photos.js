@@ -1,10 +1,30 @@
 const Photos = () => {
+  const file = new XMLHttpRequest();
+  let response = "";
+  file.open(
+    "GET",
+    "https://raw.githubusercontent.com/code-amin/farm/main/client/src/text/imgdesc.md",
+    false
+  );
+  file.onreadystatechange = function () {
+    if (file.readyState === 4) {
+      if (file.status === 200 || file.status == 0) {
+        response = file.responseText;
+      }
+    }
+  };
+  file.send(null);
+
+  let txtArray = response.split(".");
+
   let imagesURL = [];
   for (let x = 1; x < 24; x++) {
     imagesURL.push(
+      <span className="text-lg  ml-auto mr-auto">ℹ️{txtArray[x-1]}</span>,
       <img
         src={`https://raw.githubusercontent.com/code-amin/farm/main/client/src/images/image${x}.jpeg`}
         className="py-2 ml-auto mr-auto sm:max-w-[50%] sm:max-h-[50%]"
+        alt={`${txtArray[x-1]}`}
       />,
       <hr />
     );
@@ -39,7 +59,7 @@ const Photos = () => {
         >
           ⏎ Retour{" "}
         </a>
-        <p>{imagesURL}</p>
+        <p className="">{imagesURL}</p>
         <p className="text-3xl ml-auto mr-auto">Vidéos</p>
         {videosURL}
         <a

@@ -63,12 +63,16 @@ const Carousel = () => {
         >
           Voir tout 📸{" "}
         </a>
-        <button
-          style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
-          className="CAROUSEL w-full h-full rounded-2xl bg-center bg-cover shadow-[0_3px_10px_rgb(0,0,0,0.2)]"
-          alt="Photo de la ferme"
-        ></button>
-        <p className="pb-5 text-sm italic text-green-900">Description: {slides[currentIndex].text}</p>
+        <picture>
+          <button
+            style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
+            className="CAROUSEL w-full h-full rounded-2xl bg-center bg-cover shadow-[0_3px_10px_rgb(0,0,0,0.2)]"
+            alt={`${slides[currentIndex].text}`}
+          />
+        </picture>
+        <p className="pb-5 text-sm italic text-green-900">
+          Description: {slides[currentIndex].text}
+        </p>
         {/* Left Arrow */}
         <div className="ARROWS flex absolute top-[40%] w-full left-0 justify-between sm:top-[50%] text-white  ">
           <div className="   rounded-full  bg-black/30 cursor-pointer hover:bg-gray-400/30 ">

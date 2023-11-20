@@ -1,4 +1,4 @@
-Carte géographique, Route R401 Les Ricins Bassin et verger du citronnier.
+Carte géographique, Route R401, Bassin et verger du citronnier.
 Bassin lors de son creusement.
 Maraichage, piment rouge, clôture et logis (16x8 metres 128m^2).
 Culture en cours.
