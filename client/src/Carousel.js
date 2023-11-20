@@ -20,6 +20,8 @@ const Carousel = () => {
   };
   file.send(null);
 
+  let txtArray = response.split(".");
+
   const link = [
     "https://raw.githubusercontent.com/code-amin/farm/main/client/src/images/",
   ];
@@ -27,7 +29,7 @@ const Carousel = () => {
   const links = [];
   for (let x = 1; x < 24; x++) {
     const theURL = `${link}${"image" + x + ".jpeg"}`;
-    links.push({ url: `${theURL}` });
+    links.push({ url: `${theURL}`, text: `${txtArray[x - 1]}` });
   }
 
   let slides = [];
@@ -51,7 +53,6 @@ const Carousel = () => {
 
   return (
     <div className="sm:p-5 justify-center ">
-      <h3> ---{response}****</h3>
       <h2 className="text-[rgb(5,69,47)] text-center text-lg sm:text-3xl sm:pb-2 font-medium pt-2">
         Ferme agricole moderne avec un potentiel immense
       </h2>{" "}
@@ -67,6 +68,7 @@ const Carousel = () => {
           className="CAROUSEL w-full h-full rounded-2xl bg-center bg-cover shadow-[0_3px_10px_rgb(0,0,0,0.2)]"
           alt="Photo de la ferme"
         ></button>
+        <p className="pb-5 text-sm italic text-green-900">Description: {slides[currentIndex].text}</p>
         {/* Left Arrow */}
         <div className="ARROWS flex absolute top-[40%] w-full left-0 justify-between sm:top-[50%] text-white  ">
           <div className="   rounded-full  bg-black/30 cursor-pointer hover:bg-gray-400/30 ">
