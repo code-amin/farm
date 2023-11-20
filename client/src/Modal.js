@@ -10,3 +10,4 @@ const Modal = ({ img }) => {
 };
 
 export default Modal;
+ 

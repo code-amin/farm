@@ -36,3 +36,4 @@ const Prix = () => {
 };
 
 export default Prix;
+ 

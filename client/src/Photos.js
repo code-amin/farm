@@ -86,7 +86,7 @@ const Photos = () => {
         >
           ⏎ Retour{" "}
         </a>
-        <button className="transition duration-300 ease-in-out hover:scale-110 contact text-center  text-white py-3 right-0 bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:outline-none font-medium text-sm px-5 mr-6 mt-2 mt-16 ">
+        <button className="transition duration-300 ease-in-out hover:scale-110 contact text-center  text-white py-3 right-0 bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:outline-none font-medium text-sm px-5 mr-6 max-w-[50%] mt-3">
           <a href="mailto:rouif401@gmail.com?subject=Demande d'information - Ferme">
             Communiquez avec nous
           </a>
@@ -97,3 +97,4 @@ const Photos = () => {
 };
 
 export default Photos;
+ 

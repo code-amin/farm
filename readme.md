@@ -14,4 +14,4 @@ A cost efficient, basic website to display a sophisticated farm for sale.
 -Has to be responsive
 
 ## Technologies used
-The website is built with React.JS ⚛️, TailwindCSS 💨
+The website is built with React.JS ⚛️, TailwindCSS 💨.
