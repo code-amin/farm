@@ -10,9 +10,9 @@ const Body = () => {
           <span className="sm:text-[20px] text-justify">
             Ferme à vendre (Cause retraite) <br />
             <br />
-            Ferme localisée dans la Région Rabat-Kénitra, bordant la route R401,
-            dans les Zaèrs, équipée du système d’irrigation localisée
-            goutte-à-goutte){" "}
+            Ferme localisée (connu sous Ferme Les Ricins sur Google) dans la
+            Région Rabat-Kénitra, bordant la route R401, dans les Zaèrs, équipée
+            du système d’irrigation localisée goutte-à-goutte){" "}
             <span className="underline">
               (un système solaire remplace maintenant le système électrique sur
               l’infrastructure goûte à goûte, et devient la principale source
@@ -136,4 +136,3 @@ const Body = () => {
 };
 
 export default Body;
- 
