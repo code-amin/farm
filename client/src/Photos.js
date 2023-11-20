@@ -20,19 +20,37 @@ const Photos = () => {
   let imagesURL = [];
   for (let x = 1; x < 24; x++) {
     imagesURL.push(
-      <span className="text-lg  ml-auto mr-auto">ℹ️{txtArray[x-1]}</span>,
+      <span className="text-lg  ml-auto mr-auto">ℹ️{txtArray[x - 1]}</span>,
       <img
         src={`https://raw.githubusercontent.com/code-amin/farm/main/client/src/images/image${x}.jpeg`}
         className="py-2 ml-auto mr-auto sm:max-w-[50%] sm:max-h-[50%]"
-        alt={`${txtArray[x-1]}`}
+        alt={`${txtArray[x - 1]}`}
       />,
       <hr />
     );
   }
 
+  const vidFile = new XMLHttpRequest();
+  let vidResponse = "";
+  vidFile.open(
+    "GET",
+    "https://raw.githubusercontent.com/code-amin/farm/main/client/src/text/viddesc.md",
+    false
+  );
+  vidFile.onreadystatechange = function () {
+    if (vidFile.readyState === 4) {
+      if (vidFile.status === 200 || vidFile.status == 0) {
+        vidResponse = vidFile.responseText;
+      }
+    }
+  };
+  vidFile.send(null);
+  let vidTxtArray = vidResponse.split(".");
+
   let videosURL = [];
   for (let y = 1; y < 6; y++) {
     videosURL.push(
+      <span className="text-lg  ml-auto mr-auto">ℹ️{vidTxtArray[y - 1]}</span>,
       <video
         width="750"
         height="500"
