@@ -61,7 +61,7 @@ const Carousel = () => {
           href="/#/photos"
           className="text-lg sm:text-2xl  text-blue-700 underline text-right  justify-end flex"
         >
-          Voir tout 📸{" "}
+          Voir tout 📸{" "} 
         </a>
         <picture>
           <button
@@ -73,6 +73,16 @@ const Carousel = () => {
         <p className="pb-5 text-sm italic text-green-900">
           Description: {slides[currentIndex].text}
         </p>
+        <a
+          href="https://www.youtube.com/watch?v=SnwwVwKflhc"
+          target="_blank"
+          className=" text-purple"
+        >
+          <img
+            className="pb-4 w-[100px]"
+            src="https://www.gstatic.com/youtube/img/branding/youtubelogo/svg/youtubelogo.svg"
+          />
+        </a>
         {/* Left Arrow */}
         <div className="ARROWS flex absolute top-[40%] w-full left-0 justify-between sm:top-[50%] text-white  ">
           <div className="   rounded-full  bg-black/30 cursor-pointer hover:bg-gray-400/30 ">

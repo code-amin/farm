@@ -70,6 +70,16 @@ const Photos = () => {
       <div className="p-10 grid ">
         {" "}
         <p className="text-3xl ml-auto mr-auto">Photos et vidéos</p>
+        <a
+          href="https://www.youtube.com/watch?v=SnwwVwKflhc"
+          target="_blank"
+          className=" text-blue"
+        >
+          <img
+            className="w-[100px]"
+            src="https://www.gstatic.com/youtube/img/branding/youtubelogo/svg/youtubelogo.svg"
+          />
+        </a>
         <hr></hr>
         <a
           href="/"
@@ -97,4 +107,3 @@ const Photos = () => {
 };
 
 export default Photos;
- 
