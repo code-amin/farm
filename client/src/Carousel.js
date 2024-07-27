@@ -56,7 +56,6 @@ const Carousel = () => {
       <h2 className="text-[rgb(5,69,47)] text-center text-lg sm:text-3xl sm:pb-2 font-medium pt-2">
         Ferme agricole moderne avec un potentiel immense
       </h2>{" "}
-      <img className="w-full sm:w-[700px] sm:h-[500px] px-2 m-auto sm:py-10  relative mt-[10px]" src="https://raw.githubusercontent.com/code-amin/farm/1463f4c10b5a41e50e2eb8652a5692b0c90ee8c8/client/src/images/image0.jpeg" alt="bannière d'une ferme a vendre avec mouton, légume, numéro de telephon et site web"/>
       <div className="w-full h-[300px] sm:w-[700px] sm:h-[500px] px-2 m-auto sm:py-10  relative mt-[10px]">
         <a
           href="/#/photos"
