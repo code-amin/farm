@@ -1,8 +1,8 @@
 const Home = () => {
   return (
-<div className="BANNER pt-20 px-20 drop-shadow-2xl flex flex-col items-center justify-center">
+<div className="BANNER pt-20 lg:px-20 md:px-20 drop-shadow-2xl flex flex-col items-center justify-center ">
   <img
-    className=" rounded-lg shadow-2xl w-[400px] md:w-[1000px] lg:w-[1000px]"
+    className=" rounded-lg shadow-2xl md:w-[1000px] lg:w-[1000px]"
     src="https://raw.githubusercontent.com/code-amin/farm/e44f199181acf0c85490be6b467d83bd3bbc25e4/client/src/images/image0.jpeg"
     alt="image debaniere de ferme a vendre avec poivrons, laitue, brebis, eau et panneaux solaires"
   />
